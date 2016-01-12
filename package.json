@@ -1,0 +1,22 @@
+{
+  "name": "keremeraude",
+  "version": "1.0.0",
+  "description": "KerEmeraude\r Web App built with React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arno-bagbila/KerEmeraude.git"
+  },
+  "author": "Tiwoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arno-bagbila/KerEmeraude/issues"
+  },
+  "homepage": "https://github.com/arno-bagbila/KerEmeraude#readme",
+  "devDependencies": {
+    "webpack": "^1.12.11"
+  }
+}
