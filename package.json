@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arno-bagbila/KerEmeraude#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^1.7.0",
     "webpack": "^1.12.11"
   }
 }
