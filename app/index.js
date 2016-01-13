@@ -1,5 +1,5 @@
-module.exports = function(){
-  var element = document.createElement("h1");
-  element.innerHTML = "Drop the beat Ker Emeraude";
-  return element;
-};
+var component = require("./component");
+var app = document.createElement("div");
+document.body.appendChild(app);
+app.appendChild(component());
+>>>>>>> dev
