@@ -16,6 +16,16 @@ const common = {
     path: PATHS.build,
     filename: "bundle.js"
   },
+  module:{
+    loaders: [
+      {
+        // Test expects a RegExp! Note the slashes!
+        test:/\.css$/,
+        loaders: ["style", "css"],
+        include: PATHS.app
+      }
+    ]
+  },
   plugins:[
     new HtmlwebpackPlugin({
       title:"Ker Emeraude"
@@ -27,6 +37,7 @@ const common = {
 //Default configuration
 if(TARGET === "start" || !TARGET){
   module.exports = merge(common, {
+    devtool: "eval-source-map",
     devServer:{
       historyApiFallback: true,
       hot: true,
